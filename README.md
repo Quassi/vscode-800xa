@@ -1,2 +1,2 @@
 # vscode-800xa
-VS Code language support for ABB 800xA configuration and text files.
+Open-source Visual Studio Code syntax highlighting and language support for ABB 800xA engineering files.
