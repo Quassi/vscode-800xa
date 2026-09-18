@@ -1,0 +1,31 @@
+{
+    "name": "800xa-syntax",
+    "displayName": "800XA Syntax",
+    "description": "Open-source Visual Studio Code syntax highlighting and language support for ABB 800xA engineering files.",
+    "version": "0.0.1",
+    "publisher": "Quassi",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": [
+      "Languages"
+    ],
+    "contributes": {
+      "languages": [
+        {
+          "id": "800xa",
+          "aliases": ["800XA", "800xa"],
+          "extensions": [".800xa"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "800xa",
+          "scopeName": "source.800xa",
+          "path": "./syntaxes/800xa.tmLanguage.json"
+        }
+      ]
+    }
+  }
+  

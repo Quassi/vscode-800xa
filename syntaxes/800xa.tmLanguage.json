@@ -1,0 +1,48 @@
+{
+    "scopeName": "source.800xa",
+    "name": "800XA",
+    "patterns": [
+      {
+        "begin": "\\(\\*",
+        "end": "\\*\\)",
+        "name": "comment.block.800xa"
+      },
+      {
+        "match": "\\b(?i:IF|THEN|ELSE|END_IF|NOT)\\b",
+        "name": "keyword.control.800xa"
+      },
+      {
+        "match": "\\b(AND|OR|XOR)\\b",
+        "name": "keyword.operator.logical.800xa"
+      },
+      {
+        "match": ":=",
+        "name": "keyword.operator.assignment.800xa"
+      },
+      {
+        "match": "[+\\-*/><=]",
+        "name": "keyword.operator.800xa"
+      },
+      {
+        "match": "\\b(True|False)\\b",
+        "name": "constant.language.boolean.800xa"
+      },
+      {
+        "match": "\\b\\d+(\\.\\d+)?\\b",
+        "name": "constant.numeric.800xa"
+      },
+      {
+        "match": "\\b[A-Z][A-Za-z0-9_]*\\s*\\(",
+        "name": "support.function.800xa"
+      },
+      {
+        "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*(\\.[a-zA-Z0-9_]+)+\\b",
+        "name": "variable.other.dot-access.800xa"
+      },
+      {
+        "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b",
+        "name": "variable.other.800xa"
+      }
+    ]
+  }
+  
